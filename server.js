@@ -4,6 +4,7 @@ const fs = require("fs");
 const path = require("path");
 const db = require("./db/db.json");
 const app = express();
+const { v4: uuidv4 } = require("uuid");
 
 // The port that the server will be listening on.
 const PORT = process.env.PORT || 8080;
@@ -19,7 +20,7 @@ require("./routing/api-routes.js")(app);
 
 // When the user runs the program, they will be alerted that the server is listening to their request.
 app.listen(PORT, () => {
-    console.log("App listening on PORT: http://localhost" + PORT);
+    console.log("Server Listening on:" + PORT);
 });
 
 
