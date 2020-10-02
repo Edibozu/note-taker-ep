@@ -12,11 +12,9 @@ app.use(express.urlencoded({ edtended: true}));
 app.use(express.json());
 app.use(express.static("public"));
 
+// The code from these 2 files is being inherited using the 'require' command.
 require("./routing/html-routes.js")(app);
-
-app.get("/api/notes", (req, res) => {
-    return res.sendFile(path.join(__dirname, "/db/db.json"));
-});
+require("./routing/api-routes.js")(app);
 
 // When the user runs the program, they will be alerted that the server is listening to their request.
 app.listen(PORT, () => {
