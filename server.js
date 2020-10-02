@@ -18,4 +18,9 @@ app.get("/api/notes", (req, res) => {
     return res.sendFile(path.join(__dirname, "/db/db.json"));
 });
 
+// When the user runs the program, they will be alerted that the server is listening to their request.
+app.listen(PORT, () => {
+    console.log("App listening on PORT: " + PORT);
+});
+
 
