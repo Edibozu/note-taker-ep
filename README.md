@@ -2,23 +2,19 @@
 
 ## Description
 
-This application provides the user with an online note taker. They are able to give their notes a title and type the rest of the message below. Then press "save" on the right hand side, and it will save the nore on the lefe-hand side of the screen. Previously saved notes will appear with only their title showing as a preview, and when no longer needed, the user can easily discard any unecessary note with the "delete" button.
+This application provides the user with an online note taker. They are able to give their notes a title and type the rest of the message below. Then press "save" on the right hand side, and it will save the note on the left-hand side of the screen. Previously saved notes will appear with only their title showing as a preview, and when no longer needed, the user can easily discard any unecessary note with the "delete" button.
 
  ## Installation
 
 The Note Taker is deployed using [Heroku](https://ep-note-taker.herokuapp.com/), with the files used to create it within the [Github](https://github.com/Edibozu/note-taker-ep) repo, and can be easily cloned.
 <br/><br/>
-The image below shows the deployed app, alongwith a few notes, to show as examples.
+The image below shows the deployed app, along with a few notes, to show as examples.
 <br/><br/>
 ![Application Screenshot](./public/assets/images/sc1.png)
 <br/><br/><br/>
-This screenshot shows the prompts that appear when the application is ran. The user will answer predetermined questions about their employees, which will be saved and used to dynamically create a html file.
+This screenshot shows how the folder structure is organized and also how dry the main code was written.
 <br/><br/>
-![Application Screenshot](./Assets/sc1.png)
-<br/><br/><br/>
-The html file will be inside the output folder, and can be opened and viewed in the browser. The user will find they insormation they entered organized and formatted for them to view.
-<br/><br/>
-![Application Screenshot](./Assets/sc3.png)
+![Application Screenshot](./public/assets/images/sc2.png)
 <br/><br/>
 
 ## Questions
@@ -27,7 +23,9 @@ For any questions, contact me on any of the following links:
 
 Email: edibozu@gmail.com
 
-GitHub Repo: https://github.com/Edibozu/template-engine-employee-summary
+GitHub Repo: https://github.com/Edibozu/note-taker-ep
+
+Heroku: https://ep-note-taker.herokuapp.com/
 
 LinkedIn: https://www.linkedin.com/in/eduardo-pineda-5595431b6/
 
